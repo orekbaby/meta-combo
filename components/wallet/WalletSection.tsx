@@ -36,7 +36,7 @@ export default function WalletSection() {
                 0xyrefghhfdsssdfghnnnnbvc21ftgygttyuhu
               </p>
             </div>
-            <div className="ml-3">
+            <div className="ml-2">
               <FaCopy />
             </div>
           </div>
