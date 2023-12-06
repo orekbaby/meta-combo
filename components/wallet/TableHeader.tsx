@@ -14,7 +14,7 @@ export default function TableHeader() {
           <p className="text-[10px] md:text-base lg:text-base">Balance</p>
         </div>
         <div className="w-1/4 ml-16">
-          <p className="text-[11px] md:text-base lg:text-base">Total</p>
+          <p className="text-[10px] md:text-base lg:text-base">Total</p>
         </div>
       </div>
     </div>
