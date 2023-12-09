@@ -1,60 +1,39 @@
-import React from 'react'
-import { Button } from "@/components/ui/button";
-import { IoCloseSharp } from "react-icons/io5";
-import { FaCopy } from "react-icons/fa";
+import React from "react";
+
+import { MdOutlineContentCopy } from "react-icons/md";
+import Send from "@/components/wallet/Send";
+import Settings from "@/components/wallet/Settings";
+import CreateWallet from "@/components/wallet/CreateWallet";
 
 export default function WalletSection() {
   return (
     <>
-      <div className="w-fit h-[150px] p-[10px] rounded-[8px] border-[1px] border-[#212E40]">
-        <div className="flex justify-between gap-10 mb-3">
-          <div className="px-2 flex rounded-full items-center gap-4 bg-span bg-[#063172]">
-            <div className="item">
-              <span className="font-bold text-[14px] leading-[23.8px]">
-                Wallet
+      <div className="w-full md:w-1/2 lg:w-1/2 h-[170px] p-[10px] md:p-[16px] lg:p-[16px] rounded-[8px] md:border-[1px] lg:border-[1px] border-[#212E40] mb-10">
+        <CreateWallet />
+        <div className="mt-10 md:mt-5 lg:mt-5 mb-2 flex items-center ">
+          <p className=" text-[12px] md:text-[14sm] lg:text-[14sm] font-semibold leading-[20.4px] md:leading-[24px] lg:[24px]">
+            Wallet Balance:
+          </p>
+          <p className="font-bold text-[14px] md:text-[24px] lg:[24px] leading-[18.2px] md:leading-[31.2px] lg:leading-[31.2px] text-[#B4D2FE] ml-2">
+            $157,676.77
+          </p>
+        </div>
+        <div className="flex justify-between items-center">
+          <div className=" flex items-center justify-between">
+            <p className=" text-[8.5px] md:text-[16px] lg:text-[16px]  leading-[14.45px] md:leading-[27px]lg:leading-[27px]  font-normal">
+              <span className="hidden md:inline lg:inline">
+                0x9c8bb8355629a72eb506d14b29bc3a9856107d21
               </span>
-            </div>
-            <div className="">
-              <IoCloseSharp className="w-[12 h-[8]" />
-            </div>
-          </div>
-          <div className="">
-            <p className="button2 rounded-lg text-[14px] leading-[23.8px]">
-              Create Wallet
+              <span className="inline md:hidden lg:hidden">
+                0x9c8bb8355629a72eb1
+              </span>
             </p>
+            <MdOutlineContentCopy className="text-[#DBDBDC] text-lg ml-2 cursor-pointer" />
           </div>
-        </div>
-        <div>
-          <h2 className="text-1xl font-bold text-[14px] leading-[24px]">
-            Wallet Balance: $576.77
-          </h2>
-        </div>
-        <div className="flex gap-5">
-          <div className=" flex gap-2 items-center justify-between">
-            <div className="">
-              <p className=" text-[16px] font-normal leading-[27px]">
-                0xyrefghhfdsssdfghnnnnbvc21ftgygttyuhu
-              </p>
-            </div>
-            <div className="ml-2">
-              <FaCopy />
-            </div>
-          </div>
+
           <div className="flex gap-4 items-center ">
-            <Button
-              className="bg-[#0C141F] text-white"
-              variant="default"
-              size="sm"
-            >
-              Send
-            </Button>
-            <Button
-              className="bg-[#0C141F] text-white"
-              variant="default"
-              size="sm"
-            >
-              Settings
-            </Button>
+            <Send />
+            <Settings />
           </div>
         </div>
       </div>

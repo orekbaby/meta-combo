@@ -2,7 +2,7 @@ export const walletTokenTable = [
   {
     logo: "/shank.png",
     token: "shank",
-    type: "buy",
+    type: "sell",
     price: "200,582.69",
     balance: "0.674",
     total: "210.248,52 ",
@@ -10,7 +10,7 @@ export const walletTokenTable = [
   {
     logo: "/polygon.png",
     token: "eth",
-    type: "buy",
+    type: "sell",
     price: "200,582.69",
     balance: "0.674",
     total: "210.248,52",
@@ -18,7 +18,7 @@ export const walletTokenTable = [
   {
     logo: "/polygon.png",
     token: "shank",
-    type: "buy",
+    type: "sell",
     price: "200,582.69",
     balance: "0.674",
     total: "210.248,52 ",
