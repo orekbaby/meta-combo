@@ -73,7 +73,7 @@ text-align: left;
           <Button
             size="lg"
             className=" mt-8 w-full h-[38px] md:h-[44px] lg:h-[44px] rounded-[6px] md:rounded-[8px] lg:rounded-[8px] py-[10px] px-[18px] bg-[#0D6EFD]
-             text-white text-[14px] md:text-base lg:text-base font-semibold leading-[24px]"
+             text-white text-[14px] md:text-base lg:text-base font-semibold leading-[23.8px]"
           >
             Send
           </Button>
