@@ -1,8 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-
-export default function () {
+const Settings: React.FC = () => {
   return (
     <Dialog>
       <DialogTrigger>
@@ -17,4 +16,6 @@ export default function () {
       <DialogContent>click to exit</DialogContent>
     </Dialog>
   );
-}
+};
+Settings.displayName = "Settings";
+export { Settings };
