@@ -2,7 +2,7 @@ import React from "react";
 
 import { MdOutlineContentCopy } from "react-icons/md";
 import Send from "@/components/wallet/Send";
-import Settings from "@/components/wallet/Settings";
+import { Settings } from "@/components/wallet/Settings";
 import CreateWallet from "@/components/wallet/CreateWallet";
 
 export default function WalletSection() {
