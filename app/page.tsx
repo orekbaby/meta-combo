@@ -14,7 +14,7 @@ export default function Home() {
             <Navigation />
           </div>
         </div>
-        <div className="ml-0 md:ml-20 lg:ml-20 mt-10 md:mt-10 lg:mt-24">
+        <div className="ml-0 md:ml-20 lg:ml-20 mt-16 md:mt-20 lg:mt-24">
           <h1 className="text-[27] leading-[35.1px] font-bold mb-5 ">
             My Wallet
           </h1>

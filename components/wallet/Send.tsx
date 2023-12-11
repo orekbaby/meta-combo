@@ -14,8 +14,8 @@ export default function Send() {
           Send
         </Button>
       </DialogTrigger>
-      <DialogContent>
-        <div className="w-auto p-5 bg-[#0C141F]">
+      <DialogContent className="w-auto p-5 bg-[#0C141F] border-none">
+        <div>
           <h2 className="mb-5 text-white text-[16px] md:text-[18px] lg:text-[18px] font-bold leading-[20.8px] md:leading-[23.48px] lg:leading-[23.48px]">
             Send ETH
           </h2>
@@ -38,8 +38,6 @@ export default function Send() {
             </Button>
           </div>
           <div className="flex justify-center md:justify-between lg:justify-between gap-6 items-center">
-            {/* width: Fixed (87px) height: Fixed (28px) padding: 4px, 8px, 4px, 8px
-            border-radius: 6px gap: 8px */}
             <Button
               size="sm"
               className="bg-[#161F2C] text-white text-xs md:text-base lg:text-base
@@ -62,14 +60,7 @@ export default function Send() {
               1ETH
             </Button>
           </div>
-          {/* // width: Fixed (314px) // height: Fixed (38px) // padding: 10px,
-          18px, 10px, 18px // border-radius: 6px // gap: 8px font-family: Inter;
-font-size: 14px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
- */}
+
           <Button
             size="lg"
             className=" mt-8 w-full h-[38px] md:h-[44px] lg:h-[44px] rounded-[6px] md:rounded-[8px] lg:rounded-[8px] py-[10px] px-[18px] bg-[#0D6EFD]
