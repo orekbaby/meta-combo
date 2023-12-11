@@ -28,6 +28,9 @@ export default function Settings() {
       </DialogTrigger>
 
       <DialogContent className=" h-[90vh] bg-[#0C141F] p-3 border-none overflow-y-auto">
+        <div>
+          <SettingsTab />
+        </div>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>
@@ -124,9 +127,6 @@ export default function Settings() {
         >
           Update
         </Button>
-        <div>
-          <SettingsTab />
-        </div>
       </DialogContent>
     </Dialog>
   );
