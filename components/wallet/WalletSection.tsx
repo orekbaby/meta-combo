@@ -8,7 +8,7 @@ import CreateWallet from "@/components/wallet/CreateWallet";
 export default function WalletSection() {
   return (
     <>
-      <div className="w-full md:w-[55%] lg:w-[55%] h-[170px] p-[10px] md:p-[16px] lg:p-[16px] rounded-[8px] md:border-[1px] lg:border-[1px] border-[#212E40] mb-10">
+      <div className="w-full md:w-[60%] lg:w-[60%] h-[170px] p-[10px] md:p-[16px] lg:p-[16px] rounded-[8px] md:border-[1px] lg:border-[1px] border-[#212E40] mb-10">
         <CreateWallet />
         <div className="mt-10 md:mt-5 lg:mt-5 mb-2 flex items-center ">
           <p className=" text-[12px] md:text-[14sm] lg:text-[14sm] font-semibold leading-[20.4px] md:leading-[24px] lg:[24px]">
