@@ -5,7 +5,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import SettingsTab from "@/components/wallet/settingTab/SettingsTab";
 import { BsFillExclamationCircleFill } from "react-icons/bs";
 import { IoIosArrowUp } from "react-icons/io";
-import { Slider1 } from "@/components/custom/Slider1";
+import { Slider1 } from "@/components/custom/slider1";
 import { Switch1 } from "@/components/custom/switch1";
 import {
   Accordion,
