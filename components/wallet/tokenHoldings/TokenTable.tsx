@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
 import { walletTokenTable } from "@/utils/mockData";
 import {
   Table,
