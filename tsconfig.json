@@ -22,6 +22,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/IconsFile.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/IconsFile.js",
+    "components/wallet/txHistory.tab",
+    "components/wallet/txHistoryTabs"
+  ],
   "exclude": ["node_modules"]
 }

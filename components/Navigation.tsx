@@ -8,22 +8,22 @@ export default function Navigation() {
       <Image
         src="/Metadapplogo.png"
         alt="Logo"
-        width={34}
-        height={54}
-        className="mr-4"
+        width={28}
+        height={44}
+        className="mr-4 lg:w-[40px]"
       />
 
       <div className="flex items-center pr-2 md:pr-5 lg-pr-5">
         {/* Your notification icon goes here */}
-        <IoMdNotificationsOutline className="mr-3 md:mr-6 lg:6 text-2xl" />
+        <IoMdNotificationsOutline className="mr-3 md:mr-6 lg:6 text-[18px] h-[22px]" />
         <Image
           src="/avatar.png"
-          width={32}
-          height={32}
+          width={27}
+          height={27}
           alt="Avatar"
           className="rounded-full"
         />
-        <TbMenuDeep className=" ml-3 md:ml-6 lg:ml-6 inline text-2xl md:hidden lg:hidden" />
+        <TbMenuDeep className=" ml-3 md:ml-6 lg:ml-6 inline text-[20px] h-[14px] md:hidden lg:hidden" />
       </div>
     </header>
   );

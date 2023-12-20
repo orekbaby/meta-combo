@@ -2,7 +2,7 @@ import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import TokenTable from "@/components/wallet/tokenHoldings/TokenTable";
 import { WalletPerformance } from "@/components/wallet/walletPerformance/WalletPerformance";
-import { TxHistory } from "@/components/wallet/txHistory/TxHistory";
+import TxHistory from "@/components/wallet/txHistoryTabs/TxHistory";
 
 export default function Tab() {
   return (

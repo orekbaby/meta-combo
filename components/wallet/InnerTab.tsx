@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { BsFillExclamationCircleFill } from "react-icons/bs";
-import { IoIosArrowUp } from "react-icons/io";
 import { Slider1 } from "@/components/custom/slider1";
 import { Switch1 } from "@/components/custom/switch1";
 import {
@@ -17,7 +16,7 @@ export default function InnerTab() {
   return (
     <>
       <Tabs defaultValue="WalletSettings" className="w-full">
-        <TabsList className="flex mt-6 justify-between gap-0 md:gap-3 lg:gap-3 bg-[#0A1019]  items-center md:justify-start lg:justify-start border-b-[1px] border-[#212E40]">
+        <TabsList className="flex mt-6 justify-between gap-0 md:gap-12 lg:gap-12 bg-[#0A1019] items-center md:justify-start lg:justify-start border-b-[1px] border-[#212E40]">
           <TabsTrigger
             className=" w-[140px] md:w-[130px] lg:w-[130px] px-10  font-bold text-[10px] md:text-base lg:text-base ring-offset-[#084298] focus-visible:bg-[#084298] data-[state=active]:bg-[#084298] data-[state=active]:text-[#E7E7E7] text-[#E7E7E7]"
             value="WalletSettings"

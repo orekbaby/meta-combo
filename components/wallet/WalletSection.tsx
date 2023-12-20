@@ -21,14 +21,14 @@ export default function WalletSection() {
         <div className="flex justify-between items-center gap-5">
           <div className=" flex items-center justify-between gap-2">
             <p className=" text-[8.5px] md:text-[16px] lg:text-[16px]  leading-[14.45px] md:leading-[27px]lg:leading-[27px]  font-normal">
-              <span className="hidden md:inline lg:inline">
+              <span className="hidden md:inline lg:inline text-[8.5px] md:text-[16px] lg:text-[16px]  leading-[14.45px] md:leading-[27px]lg:leading-[27px]  font-normal">
                 0x9c8bb8355629a72eb506d14b29bc3a9856107d21
               </span>
-              <span className="inline md:hidden lg:hidden">
+              <span className="inline md:hidden lg:hidden text-[8.5px] md:text-[16px] lg:text-[16px]  leading-[14.45px] md:leading-[27px]lg:leading-[27px]  font-normal">
                 0x9c8bb8355629a72eb1
               </span>
             </p>
-            <MdOutlineContentCopy className="text-[#DBDBDC] text-lg mr-2 cursor-pointer" />
+            <MdOutlineContentCopy className="text-[#DBDBDC] text-[13px] md:text-[18px] lg:text-[18px] mr-2 cursor-pointer" />
           </div>
 
           <div className="flex gap-4 items-center ">

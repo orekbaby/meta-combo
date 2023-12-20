@@ -6,12 +6,12 @@ import { FaHome } from "react-icons/fa";
 export default function SideBar() {
   return (
     <div className="hidden md:flex lg:flex fixed top-24 left-0 bottom-0 w-[80px] h-[100vh] bg-[#0B0F16] p-4 flex-shrink-0">
-      <div className="flex flex-col gap-10 items-center justify-center mb-10 border-[#212E40] w-full">
+      <div className="flex flex-col gap-10 items-center justify-center mb-32 border-[#212E40] w-full">
         <div>
           <FaHome />
         </div>
         <div className="flex flex-col items-center py-6 border-y-2 border-[#212E40] w-full">
-          <div className="mb-10">
+          <div className="mb-10 mt-8">
             <Image
               src="/hovering-text.png"
               width={12}

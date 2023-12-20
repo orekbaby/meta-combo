@@ -15,7 +15,7 @@ export default function Home() {
           </div>
         </div>
         <div className="ml-0 md:ml-20 lg:ml-20 mt-16 md:mt-20 lg:mt-24">
-          <h1 className="text-[27] leading-[35.1px] font-bold mb-5 ">
+          <h1 className="text-[16] md:text-[27px] lg:text-[27px] leading-[20.8px] md:leading-[35.1px] lg:leading-[35.1px]font-bold mb-5 ">
             My Wallet
           </h1>
           <Wallet />

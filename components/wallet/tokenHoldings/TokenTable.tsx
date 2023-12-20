@@ -18,7 +18,7 @@ export default function TokenTable() {
           <TableHead className="w-1/4 font-semibold md:font-bold lg:font-bold text-[10px] md:text-base lg:text-base">
             Wallets
           </TableHead>
-          <TableHead className="w-1/4 ont-semibold md:font-bold lg:font-bold text-[10px] md:text-base lg:text-base">
+          <TableHead className="w-1/4 font-semibold md:font-bold lg:font-bold text-[10px] md:text-base lg:text-base">
             Price
           </TableHead>
           <TableHead className="w-1/4 ont-semibold md:font-bold lg:font-bold text-[10px] md:text-base lg:text-base">
