@@ -4,7 +4,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import { TbMenuDeep } from "react-icons/tb";
 export default function Navigation() {
   return (
-    <header className="fixed top-0 left-0 right-0 flex justify-between items-center p-2 md:p-5 lg:p-5 bg-[#0B0F16] w-full ">
+    <header className="fixed top-0 left-0 right-0 flex justify-between items-center p-2 md:p-5 lg:p-5 bg-[#0B0F16] w-full">
       <Image
         src="/Metadapplogo.png"
         alt="Logo"
