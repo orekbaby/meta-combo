@@ -9,6 +9,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "../ui/tabs";
 import Security from "@/components/wallet/Security";
 
